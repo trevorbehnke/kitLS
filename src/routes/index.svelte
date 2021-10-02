@@ -7,16 +7,3 @@
 
 <Alert />
 <Todos bind:todos={$todos} />
-
-<!-- <script context="module">
-	export const ssr = false;
-	import { todos } from '../stores/stores';
-</script>
-
-<main>
-	{#each $todos as { id, name, completed }}
-		<section>
-			{id}: {name} - {completed}
-		</section>
-	{/each}
-</main> -->
